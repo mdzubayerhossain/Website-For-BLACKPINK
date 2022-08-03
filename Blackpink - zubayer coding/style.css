@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cotainar{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 2;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+span{
+    color: #F5A8BC;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #F5A8BC;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+   
+}
+.card{
+    width: 250px;
+    height: 260px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.card1{
+    background-image: url(lisa.png);
+}
+.card2{
+    background-image: url(jisoo.png);
+}
+.card3{
+    background-image: url(Jennie.png);
+}
+.card4{
+    background-image: url(rose.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card h5{
+    color: white;
+}
